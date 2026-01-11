@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Sehat</string>
+    <string name="SelamatDatang">Welcome</string>
+    <string name="Indonesia">Indonesia</string>
+    <string name="Hidup_SehatnDimulai_Dari_Sini">Healthy Living\nStarts Here</string>
+    <string name="HealthyMe">HealthyMe</string>
+    <string name="welcome_message">Welcome\nto Sehat</string>
+    <string name="onboarding_subtitle">Track your healthy habits\nevery day for\nmaximum results</string>
+    <string name="add_habit">Add\nHabit</string>
+    <string name="name_habbit">Activity Name</string>
+    <string name="desciption">Description</string>
+    <string name="fill">Enter description... (optional)</string>
+    <string name="time">Time</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="save">Save</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="steps">Steps</string>
+    <string name="water">Water Intake</string>
+    <string name="calories">Calories</string>
+    <string name="sleeps">Sleep</string>
+    <string name="today">You have had 3 glasses of water today. Keep it up!</string>
+    <string name="add">+ Add</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="progress">Progress Tracker</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="Consistent">You have been consistent for 7 days in a row</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="activity">Activity Successful</string>
+    <string name="activitys">Activity has been added to your daily log: Jogging 30 mins</string>
+    <string name="act">Activity</string>
+    <string name="done">has been added to your daily log.</string>
+    <string name="ok">OK</string>
+</resources>

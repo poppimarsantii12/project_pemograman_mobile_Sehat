@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Sehat</string>
+    <string name="SelamatDatang">Добро пожаловать</string>
+    <string name="Indonesia">Индонезия</string>
+    <string name="Hidup_SehatnDimulai_Dari_Sini">Здоровый образ жизни\nначинается здесь</string>
+    <string name="HealthyMe">Sehat</string>
+    <string name="welcome_message">Добро пожаловать\nв Sehat</string>
+    <string name="onboarding_subtitle">Записывайте полезные привычки\nкаждый день для\nмаксимального результата</string>
+    <string name="add_habit">Добавить\nпривычку</string>
+    <string name="name_habbit">Название активности</string>
+    <string name="desciption">Описание</string>
+    <string name="fill">Введите описание... (необязательно)</string>
+    <string name="time">Время</string>
+    <string name="choose_time">Выберите время</string>
+    <string name="save">Сохранить</string>
+    <string name="dashboard">Панель управления</string>
+    <string name="steps">Шаги</string>
+    <string name="water">Вода</string>
+    <string name="calories">Калории</string>
+    <string name="sleeps">Сон</string>
+    <string name="today">Сегодня вы выпили 3 стакана воды. Выпейте ещё!</string>
+    <string name="add">+ Добавить</string>
+    <string name="login">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="progress">Прогресс</string>
+    <string name="congrats">Поздравляем!</string>
+    <string name="Consistent">Вы ведете здоровый образ жизни 7 дней подряд</string>
+    <string name="weekly_progress">Прогресс за неделю</string>
+    <string name="activity">Активность добавлена</string>
+    <string name="activitys">Активность добавлена в ваш дневник: пробежка 30 минут</string>
+    <string name="act">Kegiatan</string>
+    <string name="done">wis ditambahne menyang cathetan saben dinamu.</string>
+    <string name="ok">ОК</string>
+</resources>

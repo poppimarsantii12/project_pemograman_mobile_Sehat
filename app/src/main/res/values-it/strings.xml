@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Sehat</string>
+    <string name="SelamatDatang">Benvenuti</string>
+    <string name="Indonesia">English</string>
+    <string name="Hidup_SehatnDimulai_Dari_Sini">Vivere Sani\nInizia Qui</string>
+    <string name="HealthyMe">Sehat</string>
+    <string name="welcome_message">Benvenuti\nsu Sehat</string>
+    <string name="onboarding_subtitle">Registra le tue sane abitudini\nogni giorno per\nmassimi risultati</string>
+    <string name="add_habit">Aggiungi\nAbitudine</string>
+    <string name="name_habbit">Nome Attività</string>
+    <string name="desciption">Descrizione</string>
+    <string name="fill">Inserisci descrizione... (opzionale)</string>
+    <string name="time">Orario</string>
+    <string name="choose_time">Scegli Orario</string>
+    <string name="save">Salva</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="steps">Passi</string>
+    <string name="water">Acqua Assunta</string>
+    <string name="calories">Calorie</string>
+    <string name="sleeps">Sonno</string>
+    <string name="today">Oggi hai bevuto 3 bicchieri d\'acqua. Aggiungine ancora!</string>
+    <string name="add">+ Aggiungi</string>
+    <string name="login">Accedi</string>
+    <string name="sign_up">Registrati</string>
+    <string name="progress">Monitoraggio Progressi</string>
+    <string name="congrats">Congratulazioni!</string>
+    <string name="Consistent">Sei stato costante per 7 giorni consecutivi</string>
+    <string name="weekly_progress">Progressi Settimanali</string>
+    <string name="activity">Attività Riuscita</string>
+    <string name="activitys">L\'attività è stata aggiunta al tuo diario: Jogging 30 min</string>
+    <string name="act">Attività</string>
+    <string name="done">è stata aggiunta al tuo diario.</string>
+    <string name="ok">OK</string>
+</resources>

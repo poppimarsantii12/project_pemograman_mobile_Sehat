@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Sehat</string>
+    <string name="SelamatDatang">ようこそ</string>
+    <string name="Indonesia">インドネシア</string>
+    <string name="Hidup_SehatnDimulai_Dari_Sini">健康な生活は\nここから始まる</string>
+    <string name="HealthyMe">Sehat</string>
+    <string name="welcome_message">Sehatへ\nようこそ</string>
+    <string name="onboarding_subtitle">毎日の健康習慣を\n記録して、最大限の\n効果を得ましょう</string>
+    <string name="add_habit">習慣を\n追加する</string>
+    <string name="name_habbit">アクティビティ名</string>
+    <string name="desciption">説明</string>
+    <string name="fill">説明を入力... (任意)</string>
+    <string name="time">時刻</string>
+    <string name="choose_time">時刻を選択</string>
+    <string name="save">保存</string>
+    <string name="dashboard">ダッシュボード</string>
+    <string name="steps">歩数</string>
+    <string name="water">水分補給</string>
+    <string name="calories">カロリー</string>
+    <string name="sleeps">睡眠</string>
+    <string name="today">今日はコップ3杯の水を飲みました。もっと飲みましょう！</string>
+    <string name="add">+ 追加</string>
+    <string name="login">ログイン</string>
+    <string name="sign_up">新規登録</string>
+    <string name="progress">進捗トラッカー</string>
+    <string name="congrats">おめでとうございます！</string>
+    <string name="Consistent">7日間連続で健康習慣を達成しました</string>
+    <string name="weekly_progress">週間の進捗</string>
+    <string name="activity">アクティビティ完了</string>
+    <string name="activitys">アクティビティが記録に追加されました：ジョギング30分</string>
+    <string name="act">アクティビティ</string>
+    <string name="done">がデイリーログに追加されました。</string>
+    <string name="ok">OK</string>
+</resources>

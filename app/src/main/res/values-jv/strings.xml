@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Sehat</string>
+    <string name="SelamatDatang">Sugeng Rawuh</string>
+    <string name="Indonesia">Indonesia</string>
+    <string name="Hidup_SehatnDimulai_Dari_Sini">Urip Sehat\nDiwiwiti Saka Kene</string>
+    <string name="HealthyMe">Sehat</string>
+    <string name="welcome_message">Sugeng Rawuh\ning Sehat</string>
+    <string name="onboarding_subtitle">Cathet pakulinan sehatmu\nsaben dina kanggo\nasil maksimal</string>
+    <string name="add_habit">Tambah \nPakulinan</string>
+    <string name="name_habbit">Jeneng Aktivitas</string>
+    <string name="desciption">Katrangan</string>
+    <string name="fill">Isi katrangan... (opsional)</string>
+    <string name="time">Wektu</string>
+    <string name="choose_time">Pilih Wektu</string>
+    <string name="save">Simpan</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="steps">Jangkah</string>
+    <string name="water">Asupan Ombe</string>
+    <string name="calories">Kalori</string>
+    <string name="sleeps">Turu</string>
+    <string name="today">Dina iki sampeyan wis ngombe 3 gelas. Ayo tambah maneh!</string>
+    <string name="add">+ Tambah</string>
+    <string name="login">Mlebu</string>
+    <string name="sign_up">Daftar</string>
+    <string name="progress">Progres Tracker</string>
+    <string name="congrats">Selamat!</string>
+    <string name="Consistent">Sampeyan Konsisten Sehat Suwene 7 Dina Matun-turut</string>
+    <string name="weekly_progress">Progres Mingguan</string>
+    <string name="activity">Aktivitas Kasil</string>
+    <string name="activitys">Aktivitas olahraga wis ditambahake ing cathetan harianmu: Joging 30 menit</string>
+    <string name="act">Kegiatan</string>
+    <string name="done">wis ditambahne menyang cathetan saben dinamu.</string>
+    <string name="ok">OK</string>
+</resources>

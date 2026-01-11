@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC2D1"
+    tools:context=".AddHabitActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Tambah\nAktivitas"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Input Nama Aktivitas -->
+    <LinearLayout
+        android:id="@+id/containerNama"
+        android:layout_width="330dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/bg_rounded_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_cheklist"
+            app:tint="#958D8D"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/etHabitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Nama Aktivitas"
+            android:textColorHint="#958D8D"
+            android:textSize="18sp"
+            android:inputType="textCapWords"/>
+    </LinearLayout>
+
+    <!-- Label Deskripsi -->
+    <TextView
+        android:id="@+id/lblDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Deskripsi"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="@id/containerNama"
+        app:layout_constraintTop_toBottomOf="@id/containerNama" />
+
+    <!-- Input Deskripsi -->
+    <FrameLayout
+        android:id="@+id/containerDeskripsi"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:minHeight="72dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_rounded_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblDeskripsi">
+
+        <EditText
+            android:id="@+id/etHabitDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:minHeight="72dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="12dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="Isi deskripsi... (opsional)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:textSize="16sp"/>
+    </FrameLayout>
+
+    <!-- Label Waktu -->
+    <TextView
+        android:id="@+id/lblWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Waktu"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="@id/containerDeskripsi"
+        app:layout_constraintTop_toBottomOf="@id/containerDeskripsi" />
+
+    <!-- Pemilih Waktu (TextView yang bisa diklik) -->
+    <TextView
+        android:id="@+id/tvSelectedTime"
+        android:layout_width="330dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_rounded_input"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_vertical"
+        android:hint="Pilih Waktu"
+        android:paddingHorizontal="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#958D8D"
+        android:textSize="18sp"
+        app:drawableTint="#958D8D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lblWaktu" />
+
+    <!-- Tombol Simpan Habit -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaveHabit"
+        android:layout_width="330dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_rounded_input"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Simpan"
+        android:textAllCaps="false"
+        android:textColor="#FFC2D1"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
